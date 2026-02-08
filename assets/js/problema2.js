@@ -4,6 +4,7 @@ function verificar() {
     let input3 = Number(document.querySelector('#input-3').value);
     
     let suma = input1 + input2 + input3;
+    
     if (suma >= 10) {
         let message = document.querySelector('#message');
         message.innerHTML = "Llevas demasiados stickers";
