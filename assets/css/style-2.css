@@ -1,0 +1,18 @@
+.boxes-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.sticker-img {
+    width: auto;
+    height: 350px;
+    padding: 50px;
+}

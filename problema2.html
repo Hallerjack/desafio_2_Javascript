@@ -5,23 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Fernando González Díaz">
     <meta name="description" content="Desafio 2 JavaScript">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./assets/css/style-main.css">
+    <link rel="stylesheet" href="./assets/css/style-2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>ADL | Desafio 2 JS - Fernando Gonzalez</title>
 </head>
-</head>
-    <input id="input-1" type="text">
-    <button id="btn-1" onclick="
-    input = document.querySelector('#input-1')
-    body = document.querySelector('body')
-    body.style.backgroundColor = input.value
-    ">
-    Cambiar </button>
-
-
 <body>
-    
+    <header class="header">
+        <h1>Desafío de la semana</h1>
+        <h2>Problema 2:</h2>
+    </header>
+
+    <main class="main-container">
+        <h3>Puedes llevar hasta 10 stickers en total</h3>
+
+        <section class="boxes-container">
+            <div class="box">
+                <img class="sticker-img" src="./assets/img/Heffer.webp" alt="Foto de Heffer">
+                <input id="input-1" type="text">
+            </div>
+            <div class="box">
+                <img class="sticker-img" src="./assets/img/Filburt.webp" alt="Foto de Filburt">
+                <input id="input-2" type="text">
+            </div>
+            <div class="box">
+                <img class="sticker-img" src="./assets/img/Ed_Bighead.webp" alt="Foto de Ed Cabeza Grande">
+                <input id="input-3" type="text">
+            </div>
+        </section>
+
+        <section class="verify-container">
+            <p id="message"></p>
+            <button id="" onclick="verificar()">Verificar</button>
+        </section>
+    </main>
+
+    <!-- SCRIPT -->
+    <script src="./assets/js/problema2.js"></script>
 </body>
 </html>
