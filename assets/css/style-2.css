@@ -1,18 +1,44 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .boxes-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     width: 100%;
 }
 
 .box {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .sticker-img {
     width: auto;
-    height: 350px;
-    padding: 50px;
+    height: 250px;
+    padding: 20px;
+}
+
+input {
+    padding: 0.3em 1em;
+    width: 200px;
+    border: solid 1px var(--terciary-color);
+    border-radius: 20px;
+}
+
+.verify-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 3em 0;
 }
