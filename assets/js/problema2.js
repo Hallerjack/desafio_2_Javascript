@@ -5,10 +5,10 @@ function verificar() {
     
     let suma = input1 + input2 + input3;
     
-    if (suma >= 10) {
+    if (suma > 10) {
         let message = document.querySelector('#message');
         message.innerHTML = "Llevas demasiados stickers";
-    } else if (suma < 10) {
+    } else if (suma <= 10) {
         message.innerHTML = "Llevas" + " " + suma + " " + "stickers";
     } else {
         message.innerHTML = "Ingresa solo números";
