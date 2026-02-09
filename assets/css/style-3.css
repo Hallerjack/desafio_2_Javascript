@@ -1,0 +1,21 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+}
+
+.selector {
+    padding: 1em;
+    border: solid 1px var(--terciary-color);
+    border-radius: 10px;
+}
+
+.confirm-pass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+}

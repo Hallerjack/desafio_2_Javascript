@@ -9,6 +9,7 @@
     --primary-color: #F54927;
     --seconday-color: #ffffff;
     --terciary-color: #1A1A1A;
+    --mono-color: #727272;
 }
 
 body {
@@ -72,4 +73,17 @@ button:hover {
     cursor: pointer;
     background-color: var(--terciary-color);
     color: var(--seconday-color);
+}
+
+.toback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.toback button {
+    background-color: var(--mono-color);
+    padding: 0.5em 3.5em;
 }
