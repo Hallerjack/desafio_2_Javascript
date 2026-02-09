@@ -1,0 +1,75 @@
+/* AJUSTES GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #F54927;
+    --seconday-color: #ffffff;
+    --terciary-color: #1A1A1A;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+p, a, button {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 3em;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+/* BOTNONES */
+
+button {
+    margin: 2em 0;
+    padding: 0.5em 1.5em;
+    background-color: var(--primary-color);
+    color: var(--seconday-color);
+    border: 0;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--terciary-color);
+    color: var(--seconday-color);
+}

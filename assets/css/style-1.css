@@ -1,0 +1,11 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container img {
+    padding: 1em;
+    border-radius: 20px;
+    margin-bottom: 2em;
+}
