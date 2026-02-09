@@ -54,6 +54,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     padding: 3em;
 }
 
@@ -86,4 +87,29 @@ button:hover {
 .toback button {
     background-color: var(--mono-color);
     padding: 0.5em 3.5em;
+}
+
+.toback button:hover {
+    background-color: var(--terciary-color)
+}
+
+/* MAIN PAGE CONTAINER */
+
+.main-page-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 3em;
+}
+
+.problem-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 }
